@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Drone Construction | Saiteja</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2>🚁 Drone Project</h2>
+
+        <div>
+            <a href="#overview">Overview</a>
+            <a href="#working">Working</a>
+            <a href="#components">Components</a>
+            <a href="#output">Output</a>
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <p class="tag">HARDWARE & EMBEDDED PROJECT</p>
+
+            <h1>Drone Construction</h1>
+
+            <p>
+                Design and construction of a basic quadcopter drone
+                using a lightweight frame, brushless motors, ESCs,
+                battery and flight controller.
+            </p>
+
+            <button onclick="showWorking()">
+                How It Works
+            </button>
+
+        </div>
+
+        <div class="drone-animation">
+            <div class="big-drone">🚁</div>
+            <p>Constructed Quadcopter</p>
+        </div>
+
+    </section>
+
+
+    <!-- OVERVIEW -->
+
+    <section id="overview">
+
+        <p class="section-tag">PROJECT OVERVIEW</p>
+
+        <h2>About the Project</h2>
+
+        <p class="description">
+
+            This project focuses on the construction and working of a
+            quadcopter drone. The drone uses four brushless motors,
+            electronic speed controllers, a flight controller and
+            a rechargeable Li-Po battery.
+
+        </p>
+
+    </section>
+
+
+    <!-- HOW DRONE WORKS -->
+
+    <section id="working" class="working-section">
+
+        <p class="section-tag">WORKING PRINCIPLE</p>
+
+        <h2>How the Drone Works</h2>
+
+        <div class="working-flow">
+
+            <div class="flow-card">
+                <span>🎮</span>
+                <h3>1. Control Input</h3>
+                <p>
+                    The pilot sends commands through the transmitter
+                    to control throttle, direction and movement.
+                </p>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="flow-card">
+                <span>🧠</span>
+                <h3>2. Flight Controller</h3>
+                <p>
+                    The flight controller processes the control input
+                    and sensor information to maintain stability.
+                </p>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="flow-card">
+                <span>⚙️</span>
+                <h3>3. ESC</h3>
+                <p>
+                    Electronic Speed Controllers regulate the speed
+                    of each brushless motor.
+                </p>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="flow-card">
+                <span>🔄</span>
+                <h3>4. Motors</h3>
+                <p>
+                    The motors rotate the propellers and generate
+                    the required thrust.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="working-principle">
+
+            <h3>How Flight is Produced</h3>
+
+            <p>
+                The four motors generate thrust by rotating the
+                propellers. Increasing or decreasing motor speed
+                changes the amount of thrust produced.
+            </p>
+
+            <div class="flight-actions">
+
+                <div>
+                    <strong>⬆️ Throttle</strong>
+                    <p>All motors increase speed to gain altitude.</p>
+                </div>
+
+                <div>
+                    <strong>↔️ Roll</strong>
+                    <p>Motor speeds are varied on opposite sides.</p>
+                </div>
+
+                <div>
+                    <strong>↕️ Pitch</strong>
+                    <p>Front and rear motor speeds are adjusted.</p>
+                </div>
+
+                <div>
+                    <strong>🔄 Yaw</strong>
+                    <p>Motor torque differences rotate the drone.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- COMPONENTS -->
+
+    <section id="components">
+
+        <p class="section-tag">HARDWARE</p>
+
+        <h2>Main Components</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <span>🛩️</span>
+                <h3>Frame</h3>
+                <p>
+                    Lightweight structure that supports the complete
+                    drone assembly.
+                </p>
+            </div>
+
+            <div class="card">
+                <span>⚙️</span>
+                <h3>Brushless Motors</h3>
+                <p>
+                    Four motors provide thrust for lifting and
+                    controlling the drone.
+                </p>
+            </div>
+
+            <div class="card">
+                <span>🔋</span>
+                <h3>Li-Po Battery</h3>
+                <p>
+                    Supplies electrical power to the motors and
+                    electronic systems.
+                </p>
+            </div>
+
+            <div class="card">
+                <span>🧠</span>
+                <h3>Flight Controller</h3>
+                <p>
+                    Processes sensor data and controls the motors
+                    for stable flight.
+                </p>
+            </div>
+
+            <div class="card">
+                <span>🔌</span>
+                <h3>ESC</h3>
+                <p>
+                    Controls the speed of each brushless motor.
+                </p>
+            </div>
+
+            <div class="card">
+                <span>🌀</span>
+                <h3>Propellers</h3>
+                <p>
+                    Convert motor rotation into aerodynamic thrust.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONSTRUCTION PROCESS -->
+
+    <section class="process-section">
+
+        <p class="section-tag">CONSTRUCTION</p>
+
+        <h2>Construction Process</h2>
+
+        <div class="steps">
+
+            <div>
+                <strong>01</strong>
+                <p>Assemble the drone frame.</p>
+            </div>
+
+            <div>
+                <strong>02</strong>
+                <p>Mount the four brushless motors.</p>
+            </div>
+
+            <div>
+                <strong>03</strong>
+                <p>Connect the ESCs and power distribution.</p>
+            </div>
+
+            <div>
+                <strong>04</strong>
+                <p>Install and configure the flight controller.</p>
+            </div>
+
+            <div>
+                <strong>05</strong>
+                <p>Connect the battery and transmitter system.</p>
+            </div>
+
+            <div>
+                <strong>06</strong>
+                <p>Perform basic testing and calibration.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONSTRUCTED OUTPUT -->
+
+    <section id="output" class="output-section">
+
+        <p class="section-tag">FINAL OUTPUT</p>
+
+        <h2>Constructed Drone</h2>
+
+        <p class="description">
+            Final assembled quadcopter structure showing the four
+            motor positions, frame and central flight controller.
+        </p>
+
+
+        <!-- Drone visual -->
+
+        <div class="drone-output">
+
+            <div class="motor motor-1">
+                <span>⚙️</span>
+                <small>M1</small>
+            </div>
+
+            <div class="motor motor-2">
+                <span>⚙️</span>
+                <small>M2</small>
+            </div>
+
+            <div class="center-controller">
+                <span>🧠</span>
+                <small>FLIGHT<br>CONTROLLER</small>
+            </div>
+
+            <div class="motor motor-3">
+                <span>⚙️</span>
+                <small>M3</small>
+            </div>
+
+            <div class="motor motor-4">
+                <span>⚙️</span>
+                <small>M4</small>
+            </div>
+
+            <div class="frame-line line-1"></div>
+            <div class="frame-line line-2"></div>
+
+        </div>
+
+
+        <button onclick="showOutput()">
+            Show Construction Status
+        </button>
+
+        <p id="outputStatus"></p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3>Drone Construction Project</h3>
+
+        <p>
+            Designed and developed by Saiteja
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
